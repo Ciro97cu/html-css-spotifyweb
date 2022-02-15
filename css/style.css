@@ -38,6 +38,7 @@ aside {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    justify-content: space-between;
 }
 
 /* css rules image aside */
@@ -68,8 +69,8 @@ aside li a, .li-aside {
     margin: 0 auto;
 }
 
-aside li i {
-    font-size: 1.3rem;
+aside li img {
+    width: 10%;
 }
 
 aside li a p {
@@ -92,9 +93,38 @@ aside .scroll-playlist li > a{
     font-size: 0.8rem;
 }
 
-.prova {
-    justify-self: flex-end;
+.install-wrapper,
+.profile-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
+
+.install-wrapper {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.profile-wrapper {
+    margin-bottom: 10px;
+
+}
+
+.install-wrapper img,
+.profile-wrapper img {
+    width: 10%;
+}
+
+.profile-wrapper img {
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+
+
 
 
 
