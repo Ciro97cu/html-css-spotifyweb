@@ -1,5 +1,16 @@
+/***** css rules star selector *****/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/***** color text *****/
+.c-white {
+    color: white;
+}
+
+/***** css rules hover *****/
+header button:hover {
+    transform: scale(1.2);
 }
