@@ -58,6 +58,30 @@ aside a:hover {
     text-decoration: underline;
 }
 
+/* hover footer center flex item */
+.fa-circle-play:hover{
+    transform: scale(1.5);
+}
+
+/* hover song-bar footer */
+.song-bar:hover #circle-time {
+    position: absolute;
+    top: -7px;
+    left: 90px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.song-bar:hover {
+    cursor: pointer;
+}
+
+.song-bar:hover #time {
+    background-color: greenyellow;
+}
+
 /* hover footer right flex item*/
 footer .right-footer a:hover {
     color: white;
