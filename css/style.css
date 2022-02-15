@@ -151,6 +151,8 @@ footer {
 
 footer .container-footer {
     height: 100%;
+    width: 99%;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -159,18 +161,53 @@ footer .container-footer {
 .right-footer {
     background-color: salmon;
     border: 1px solid black;
-    flex: 1;
+    width: calc(100% / 3);
 }
 
 .left-footer,
+.center-footer,
 .right-footer {
     display: flex;
     align-items: center;
 }
 
+/* left flex item footer */
+.left-footer {
+    column-gap: 30px;
+}
+
+.image-footer {
+    width: 70px;
+}
+
+.image-footer img {
+    height: 80%;
+    width: 80%;
+}
+
+.song-wrapper-footer {
+    display: flex;
+    align-items: center;
+}
+
+.title-song-footer > h3 {
+    font-size: 0.9rem;
+}
+
+.title-song-footer > a {
+    font-size: 0.8rem;
+}
+
+.icon-footer {
+    display: flex;
+    column-gap: 10px;
+}
+
+/* center flex item footer */
+
+/* right flex item footer */
 .right-footer {
     justify-content: flex-end;
-    padding-right: 20px;
     column-gap: 20px;
 }
 

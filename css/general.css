@@ -49,7 +49,16 @@ aside a:hover {
     color: white;
 }
 
-/* hover footer */
+/* hover footer left flex item*/
+.left-footer a:hover {
+    color: white;
+}
+
+.left-footer a.no-underline:hover {
+    text-decoration: underline;
+}
+
+/* hover footer right flex item*/
 footer .right-footer a:hover {
     color: white;
 }
@@ -72,3 +81,26 @@ footer .right-footer a:hover {
 .volume-bar:hover #volume {
     background-color: greenyellow;
 }
+
+/***** customization scrollbar *****/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
