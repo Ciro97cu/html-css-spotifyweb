@@ -19,7 +19,7 @@ body {
     color: #a3a3a3;
 }
 
-/* text formatting */
+/***** text formatting *****/
 .no-underline {
     text-decoration: none;
 }
@@ -32,16 +32,43 @@ body {
     font-weight: 700;
 }
 
-/* css rules no bullet list */
+/***** css rules no bullet list *****/
 ul, li {
     list-style-type: none;
 }
 
 /***** css rules hover *****/
+
+/* hover header upgrade */
 header a:hover {
     transform: scale(1.2);
 }
 
+/* hover aside all selection */
 aside a:hover {
     color: white;
+}
+
+/* hover footer */
+footer .right-footer a:hover {
+    color: white;
+}
+
+/* hover volume-bar footer */
+.volume-bar:hover #circle-sound {
+    position: absolute;
+    top: -7px;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.volume-bar:hover {
+    cursor: pointer;
+}
+
+.volume-bar:hover #volume {
+    background-color: greenyellow;
 }
