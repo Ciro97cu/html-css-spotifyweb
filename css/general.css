@@ -61,11 +61,28 @@ main nav a:hover {
 }
 
 /* hover main */
+.wrapper-image-song img:hover,
+.wrapper-image-song-320 img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.wrapper-image-song img:hover ~ i,
+.wrapper-image-song-320 img:hover ~ i {
+    visibility: visible;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: translate(-50% , -50%);
+    font-size: 4rem;
+    cursor: pointer;
+}
+
 
 
 /* hover footer center flex item */
 .fa-circle-play:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
 /* hover song-bar footer */
