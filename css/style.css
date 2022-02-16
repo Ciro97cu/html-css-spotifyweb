@@ -52,8 +52,12 @@ aside {
     margin: 0 auto;
 }
 
-.wrapper-img-aside img {
+.wrapper-img-aside > img:first-child {
     width: 70%;
+}
+
+.wrapper-img-aside > img:nth-child(2) {
+    display: none;
 }
 
 /* css rules ul aside  */
@@ -80,6 +84,14 @@ aside li a p {
 }
 
 aside ul .active-sidebar {
+    position: relative;
+}
+
+aside ul .active-sidebar .lateral-short-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
     border-left: 3px solid greenyellow;
 }
 

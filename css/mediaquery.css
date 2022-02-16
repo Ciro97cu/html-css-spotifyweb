@@ -30,7 +30,11 @@
 @media screen and (max-width: 878px){
     
     .a-wrapper {
-        width: 87%;
+        width: 85%;
+    }
+
+    header a {
+        font-size: 0.8rem;
     }
 
     nav, nav ul {
@@ -110,6 +114,10 @@
     
     .a-wrapper {
         width: 80%;
+    }
+
+    header a {
+        font-size: 0.6rem;
     }
 
     nav, nav ul {
@@ -223,4 +231,127 @@
         width: 10px;
     }
 
+}
+
+/* media-query 552px */
+@media screen and (max-width: 552px) {
+
+    header {
+        width: calc(100% - 50px);
+        margin-left: 50px;
+    }
+
+    /***** css rules aside *****/
+    aside {
+        width: 50px;
+    }
+
+    /* css rules image aside */
+    .wrapper-img-aside {
+        height: 50px;
+    }
+
+    .wrapper-img-aside img:first-child {
+        display: none;
+    }
+
+    .wrapper-img-aside img:nth-child(2) {
+        display: block;
+        width: 80%;
+    }
+
+    /* css rules ul aside  */
+    .wrapper-img-aside,
+    .active-sidebar a,
+    .utility-sidebar a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    aside li img {
+        width: 80%;
+        margin: 5px 0;
+    }
+
+    .lateral-short-border {
+        display: none;
+    }
+
+    aside li a p {
+        display: none;
+    }
+
+    aside .li-aside {
+        display: none;
+    }
+
+    aside li i.add {
+        display: none;
+    }
+
+    aside .scroll-playlist{
+        display: none;
+    }
+
+    aside .install-wrapper,
+    aside .profile-wrapper {
+        justify-content: center;
+    }
+
+    aside .install-wrapper {
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        border-bottom: none;
+    }
+
+    aside .profile-wrapper {
+        margin-bottom: 10px;
+    }
+
+    aside .install-wrapper img {
+        width: 50%;
+    }
+
+    aside .profile-wrapper img {
+        width: 70%;
+    }
+
+    aside .install-wrapper a,
+    aside .profile-wrapper p {
+        display: none;
+    }
+
+    main {
+        margin-left: 50px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper-image-song {
+        width: calc(100% / 2 - 30px);
+    }
+
+    .wrapper-image-song-320,
+    .wrapper-image-song-lana {
+        width: 200px;
+    }
+
+    [alt=einaudi],
+    [alt=lana] {
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    /* center flex item footer */
+    
+    .song-bar {
+        width: 120px;
+        height: 2.5px;
+    }
+    
+    .volume-bar {
+        width: 50px;
+    }
+    
 }
