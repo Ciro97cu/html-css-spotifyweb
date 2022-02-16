@@ -61,18 +61,16 @@ main nav a:hover {
 }
 
 /* hover main */
-.wrapper-image-song:hover img,
-.wrapper-image-song-320:hover img{
+.hover-play:hover img {
     opacity: 0.3;
     cursor: pointer;
 }
 
-.wrapper-image-song:hover i,
-.wrapper-image-song-320:hover i {
-    visibility: visible;
+.hover-play:hover > i {
+    display: block;
     position: absolute;
-    top: 150px;
-    left: 150px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50% , -50%);
     font-size: 4rem;
     cursor: pointer;
