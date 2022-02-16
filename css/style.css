@@ -45,7 +45,7 @@ aside {
 
 /* css rules image aside */
 .wrapper-img-aside {
-    height: 7vh;
+    height: 90px;
     display: flex;
     align-items: center;
     width: 85%;
@@ -134,11 +134,114 @@ main {
     overflow-y: scroll;
 }
 
+.container-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav-bar main content */
 nav {
-    background-color: aquamarine;
-    height: 3vh;
+    height: 50px;
     width: 100%;
 }
+
+nav ul {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 0.8rem;
+}
+
+nav ul li:first-child {
+    position: relative;
+}
+
+.short-border {
+    width: 30px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50% , 0);
+    border-bottom: 2.5px solid greenyellow;
+}
+
+/* main content */
+.content-wrapper-main {
+    background-color: burlywood;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 98%;
+    margin: 0 auto 30px;
+}
+
+.recently-played,
+.created-for,
+.most-popular {
+    display: flex;
+    column-gap: 30px;
+}
+
+.recently-played h2,
+.created-for h2,
+.most-popular h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.recently-played h2 + p,
+.created-for h2 + p,
+.most-popular h2 + p {
+    margin-top: 10px;
+}
+
+.wrapper-image-song {
+    width: 300px;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-image-song-320 {
+    background-color: salmon;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+[alt=einaudi],
+[alt=lana] {
+    height: 300px;
+    border-radius: 50%;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main h1 + p {
+    font-size: 1.2rem;
+}
+
+.title-recently-played, 
+.title-created-for, 
+.title-most-popular {
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
 
 /***** css rules footer *****/
 footer {
