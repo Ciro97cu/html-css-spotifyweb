@@ -61,14 +61,14 @@ main nav a:hover {
 }
 
 /* hover main */
-.wrapper-image-song img:hover,
-.wrapper-image-song-320 img:hover {
+.wrapper-image-song:hover img,
+.wrapper-image-song-320:hover img{
     opacity: 0.3;
     cursor: pointer;
 }
 
-.wrapper-image-song img:hover ~ i,
-.wrapper-image-song-320 img:hover ~ i {
+.wrapper-image-song:hover i,
+.wrapper-image-song-320:hover i {
     visibility: visible;
     position: absolute;
     top: 150px;
@@ -77,8 +77,6 @@ main nav a:hover {
     font-size: 4rem;
     cursor: pointer;
 }
-
-
 
 /* hover footer center flex item */
 .fa-circle-play:hover{

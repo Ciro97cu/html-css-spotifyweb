@@ -150,6 +150,7 @@ nav {
 nav ul {
     height: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     column-gap: 30px;
