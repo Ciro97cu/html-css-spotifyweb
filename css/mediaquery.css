@@ -1,6 +1,97 @@
 /* media-query 1440px */
 @media screen and (max-width: 1440px){
-    p {
-        color: red;
+    
+    .a-wrapper {
+        width: 93%;
     }
+    
+    .wrapper-image-song {
+        width: calc(100% / 4 - 30px);
+    }
+
+    .wrapper-image-song-320,
+    .wrapper-image-song-lana {
+        width: 270px;
+    }
+
+    [alt=einaudi],
+    [alt=lana] {
+        height: 270px;
+        border-radius: 50%;
+    }
+
+    .song-bar {
+        width: 350px;
+    }
+
+}
+
+/* media-query 878px */
+@media screen and (max-width: 878px){
+    
+    .a-wrapper {
+        width: 87%;
+    }
+
+    nav, nav ul {
+        height: 80px;
+    }
+
+    .wrapper-image-song {
+        width: calc(100% / 3 - 30px);
+    }
+
+    .wrapper-image-song-320,
+    .wrapper-image-song-lana {
+        width: 182px;
+    }
+
+    [alt=einaudi],
+    [alt=lana] {
+        height: 182px;
+        border-radius: 50%;
+    }
+
+    .recently-played h2,
+    .created-for h2,
+    .most-popular h2 {
+        font-size: 1.2rem;
+    }
+
+    main h1 {
+        font-size: 1.8rem;
+    }
+
+    main h1 + p {
+        font-size: 1rem;
+    }
+
+    footer .container-footer {
+        width: 98%;
+    }
+
+    .left-footer {
+        column-gap: 15px;
+    }
+
+    .center-footer {
+        row-gap: 10px;
+    }
+
+    .song-bar {
+        width: 250px;
+    }
+
+    .volume-bar {
+        width: 75px;
+    }
+
+    #volume {
+        width: 30px;
+    }
+
+    .volume-bar:hover #circle-sound {
+        left: 20px;
+    }
+
 }
