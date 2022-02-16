@@ -132,6 +132,8 @@ main {
     margin-left: 200px;
     height: calc(100vh - 90px);
     overflow-y: scroll;
+    padding-left: 30px;
+    padding-bottom: 50px;
 }
 
 .container-main {
@@ -169,19 +171,16 @@ nav ul li:first-child {
 
 /* main content */
 .content-wrapper-main {
-    background-color: burlywood;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    width: 98%;
-    margin: 0 auto 30px;
 }
 
 .recently-played,
 .created-for,
 .most-popular {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 30px;
 }
 
@@ -196,22 +195,29 @@ nav ul li:first-child {
 .created-for h2 + p,
 .most-popular h2 + p {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .wrapper-image-song {
     width: 300px;
-    background-color: salmon;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.wrapper-image-song img {
+    width: 100%;
+}
+
 .wrapper-image-song-320 {
-    background-color: salmon;
     width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.wrapper-image-song-320 img {
+    width: 100%;
 }
 
 [alt=einaudi],
@@ -233,15 +239,6 @@ main h1 + p {
 .title-most-popular {
     margin: 30px 0;
 }
-
-
-
-
-
-
-
-
-
 
 /***** css rules footer *****/
 footer {

@@ -60,6 +60,9 @@ main nav a:hover {
     text-decoration: underline;
 }
 
+/* hover main */
+
+
 /* hover footer center flex item */
 .fa-circle-play:hover{
     transform: scale(1.5);
