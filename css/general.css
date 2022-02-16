@@ -85,7 +85,7 @@ main nav a:hover {
 .song-bar:hover #circle-time {
     position: absolute;
     top: -7px;
-    left: 90px;
+    left: calc(25% - 10px);
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -106,7 +106,7 @@ main nav a:hover {
 .volume-bar:hover #circle-sound {
     position: absolute;
     top: -7px;
-    left: 40px;
+    left: calc(25% - 10px);
     height: 20px;
     width: 20px;
     border-radius: 50%;

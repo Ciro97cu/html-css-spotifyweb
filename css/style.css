@@ -359,7 +359,7 @@ footer .container-footer {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
+    width: 25%;
     height: 5px;
     background-color: #c1c1c1;
     border-radius: 25px;
@@ -383,7 +383,7 @@ footer .container-footer {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50px;
+    width: 25%;
     height: 5px;
     background-color: #c1c1c1;
     border-radius: 25px;

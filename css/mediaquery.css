@@ -82,16 +82,145 @@
         width: 250px;
     }
 
+    #time {
+        width: 25%;
+    }
+
+    .song-bar:hover #circle-time {
+        top: -7px;
+        left: calc(25% - 10px);
+    }
+
     .volume-bar {
         width: 75px;
     }
 
     #volume {
-        width: 30px;
+        width: 25%;
     }
 
     .volume-bar:hover #circle-sound {
-        left: 20px;
+        left: calc(25% - 10px);
+    }
+
+}
+
+/* media-query 639px */
+@media screen and (max-width: 639px){
+    
+    .a-wrapper {
+        width: 80%;
+    }
+
+    nav, nav ul {
+        height: 80px;
+    }
+
+    .wrapper-image-song {
+        width: calc(100% / 2 - 30px);
+    }
+
+    .wrapper-image-song-320,
+    .wrapper-image-song-lana {
+        width: 169px;
+    }
+
+    [alt=einaudi],
+    [alt=lana] {
+        height: 169px;
+        border-radius: 50%;
+    }
+
+    .hover-play:hover > i {
+        font-size: 3rem;
+    }
+    
+    footer .container-footer {
+        width: 97%;
+    }
+    
+    /* left flex item footer */
+    .left-footer {
+        column-gap: 10px;
+    }
+    
+    .image-footer {
+        width: 50px;
+    }
+    
+    .title-song-footer > h3 {
+        font-size: 0.7rem;
+    }
+    
+    .title-song-footer > a {
+        font-size: 0.6rem;
+    }
+    
+    .icon-footer {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .icon-footer > * {
+        font-size: 0.8rem;
+    }
+    
+    /* center flex item footer */
+    
+    .container-btn > * {
+        font-size: 1rem;
+    }
+    
+    .container-btn .fa-circle-play{
+        font-size: 1.6rem;
+    }
+    
+    .container-song-bar {
+        column-gap: 10px;
+    }
+    
+    .container-song-bar .c-white {
+        font-size: 0.6rem;
+    }
+    
+    .song-bar {
+        width: 150px;
+        height: 2.5px;
+    }
+    
+    #time {
+        height: 2.5px;
+    }
+
+    .song-bar:hover #circle-time {
+        top: -3.5px;
+        left: calc(25% - 5px);
+        height: 10px;
+        width: 10px;
+    }
+    
+    /* right flex item footer */
+    .right-footer {
+        column-gap: 10px;
+    }
+
+    .right-footer > a {
+        font-size: 0.8rem;
+    } 
+    
+    .volume-bar {
+        height: 2.5px;
+    }
+    
+    #volume {
+        height: 2.5px;
+    }
+
+    .volume-bar:hover #circle-sound {
+        top: -3.5px;
+        left: calc(25% - 5px);
+        height: 10px;
+        width: 10px;
     }
 
 }
