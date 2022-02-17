@@ -328,6 +328,10 @@
         padding-bottom: 50px;
     }
 
+    nav {
+        width: calc(100% - 50px);
+    }
+
     .wrapper-image-song {
         width: calc(100% / 2 - 30px);
     }
@@ -353,5 +357,5 @@
     .volume-bar {
         width: 50px;
     }
-    
+
 }
