@@ -21,7 +21,11 @@
     }
 
     .song-bar {
-        width: 350px;
+        width: 300px;
+    }
+
+    .volume-bar {
+        width: 100px;
     }
 
 }
@@ -83,7 +87,7 @@
     }
 
     .song-bar {
-        width: 250px;
+        width: 150px;
     }
 
     #time {
@@ -324,12 +328,11 @@
 
     main {
         margin-left: 50px;
-        padding-left: 30px;
         padding-bottom: 50px;
     }
 
     nav {
-        width: calc(100% - 50px);
+        width: 100%;
     }
 
     .wrapper-image-song {
