@@ -86,7 +86,11 @@ main nav a:hover {
 }
 
 /* hover footer center flex item */
-.fa-circle-play:hover{
+footer .fa-circle-play {
+    transition: transform 0.25s ease-out;
+}
+
+footer .fa-circle-play:hover{
     transform: scale(1.3);
 }
 
