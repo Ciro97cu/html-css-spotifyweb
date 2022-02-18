@@ -20,14 +20,6 @@
         border-radius: 50%;
     }
 
-    .song-bar {
-        width: 300px;
-    }
-
-    .volume-bar {
-        width: 100px;
-    }
-
 }
 
 /* media-query 878px */
@@ -87,28 +79,7 @@
     }
 
     .song-bar {
-        width: 150px;
-    }
-
-    #time {
-        width: 25%;
-    }
-
-    .song-bar:hover #circle-time {
-        top: -7px;
-        left: calc(25% - 10px);
-    }
-
-    .volume-bar {
-        width: 75px;
-    }
-
-    #volume {
-        width: 25%;
-    }
-
-    .volume-bar:hover #circle-sound {
-        left: calc(25% - 10px);
+        width: 20vw;
     }
 
 }
@@ -196,7 +167,7 @@
     }
     
     .song-bar {
-        width: 150px;
+        width: 25vw;
         height: 2.5px;
     }
     
@@ -349,16 +320,4 @@
         height: 200px;
         border-radius: 50%;
     }
-
-    /* center flex item footer */
-    
-    .song-bar {
-        width: 120px;
-        height: 2.5px;
-    }
-    
-    .volume-bar {
-        width: 50px;
-    }
-
 }
